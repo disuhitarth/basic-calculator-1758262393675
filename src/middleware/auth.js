@@ -1,0 +1,55 @@
+// Generated javascript code for Generate complete, production-ready code for src/middleware/auth.js in a web_app project.
+
+Project: basic-calculator
+Description: A web-based calculator application that performs basic arithmetic operations with a clean, user-friendly interface
+Tech Stack: {"frontend":["HTML5","CSS3","JavaScript","React","Material-UI"],"backend":[],"database":[]}
+Features: Addition, Subtraction, Multiplication, Division, Clear/Reset functionality, Decimal point operations, Keyboard input support, Operation history, Error handling for invalid operations
+
+Context from other files:
+package.json:
+{
+  "name": "basic-calculator",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A web-based calculator application with basic arithmetic operations",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icon...
+
+README.md:
+# Basic Calculator
+
+A modern web-based calculator application built with React and Material-UI that performs basic arithmetic operations with a clean, user-friendly interface.
+
+![Calculator Screenshot](docs/images/calculator-screenshot.png)
+
+## Features
+
+- ✨ Clean and intuitive user interface
+- ➕ Ba...
+
+src/index.js:
+```javascript
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import { ThemeProvider, createTheme } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import App from './App';
+import './index.css';
+
+// Create custom theme
+const theme = createT...
+
+Generate ONLY the file content, no explanations. Make it:
+- Production-ready and complete
+- Following best practices
+- Secure and optimized
+- Well-commented
+- Compatible with the tech stack
+- Implementing the required features
+
+For src/middleware/auth.js:
+// Implementation would go here
